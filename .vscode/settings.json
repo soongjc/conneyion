@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/03640af9-edb9-4d7a-8362-ae53f285ea4c/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/smartinvest-conneyion",
+    "appService.deploySubpath": "."
+}

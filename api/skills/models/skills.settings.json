@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skills",
+  "info": {
+    "name": "skills"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "endorsement": {
+      "type": "integer"
+    },
+    "username": {
+      "type": "string"
+    }
+  }
+}

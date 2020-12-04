@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "users",
+  "info": {
+    "name": "Users"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "user_image": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "string"
+    },
+    "skills": {
+      "collection": "skills"
+    }
+  }
+}

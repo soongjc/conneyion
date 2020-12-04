@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "name": "Posts"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "post_id": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    },
+    "likes": {
+      "type": "integer"
+    },
+    "views": {
+      "type": "integer"
+    },
+    "tags": {
+      "type": "enumeration",
+      "enum": [
+        "oil_and_gas"
+      ]
+    },
+    "date": {
+      "type": "string"
+    },
+    "user": {
+      "model": "users"
+    },
+    "comments": {
+      "collection": "comments"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/shoutouts",
+      "handler": "shoutout.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shoutouts/count",
+      "handler": "shoutout.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shoutouts/:id",
+      "handler": "shoutout.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/shoutouts",
+      "handler": "shoutout.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/shoutouts/:id",
+      "handler": "shoutout.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/shoutouts/:id",
+      "handler": "shoutout.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

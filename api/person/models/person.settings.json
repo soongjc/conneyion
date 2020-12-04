@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "people",
+  "info": {
+    "name": "person"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "skill1": {
+      "type": "string"
+    },
+    "endorsement1": {
+      "type": "integer"
+    },
+    "skill2": {
+      "type": "string"
+    },
+    "endorsement2": {
+      "type": "integer"
+    },
+    "skill3": {
+      "type": "string"
+    },
+    "endorsement3": {
+      "type": "integer"
+    }
+  }
+}

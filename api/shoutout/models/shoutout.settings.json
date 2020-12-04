@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shoutouts",
+  "info": {
+    "name": "Shoutout"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "date": {
+      "type": "string"
+    },
+    "sharename": {
+      "type": "string"
+    },
+    "brokername": {
+      "type": "string"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}
