@@ -23,8 +23,7 @@ jobs:
     - name: Yarn install, build, and test
       run: |
         yarn install
-        yarn run build --if-present
-        yarn run test --if-present
+        yarn run build 
 
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v2
