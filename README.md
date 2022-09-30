@@ -1,3 +1,7 @@
-# Strapi application
+# Connexion Backend
 
-A quick description of your strapi application
+```bash
+npm install --arch=x64 --platform=linux sharp --save
+yarn install
+yarn develop
+```
